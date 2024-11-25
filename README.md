@@ -4,8 +4,8 @@ Control NVME power states for fun and profit
 Example output from the interface:
 ```
 Current power states:
-Device               BUS:DEV.FNC               Serial                         Power state    
------------------------------------------------------------------------------------------                                                                         
+Device               BUS:DEV.FNC               Serial                         Power state
+-----------------------------------------------------------------------------------------
 /dev/nvme9           01:00.0                   32241049XXXX                   0              
 /dev/nvme8           c3:00.0                   32241049XXXX                   0              
 /dev/nvme7           c4:00.0                   31241045XXXX                   0              
@@ -20,8 +20,8 @@ Enter the device number (e.g., 0 for nvme0) or 'q' to quit: 9
 Enter the new power state: 6
 Power state for /dev/nvme9 set successfully to 6.
 Current power states:
-Device               BUS:DEV.FNC               Serial                         Power state    
------------------------------------------------------------------------------------------                                                                         
+Device               BUS:DEV.FNC               Serial                         Power state
+-----------------------------------------------------------------------------------------
 /dev/nvme9           01:00.0                   32241049XXXX                   6              
 /dev/nvme8           c3:00.0                   32241049XXXX                   0              
 /dev/nvme7           c4:00.0                   31241045XXXX                   0              
